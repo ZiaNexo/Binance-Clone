@@ -1,0 +1,242 @@
+
+body{
+    background-color: #181A20;
+}
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #181A20;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    /* border: 1px solid blue; */
+}
+.nav-1{
+    display: flex;
+
+}
+.logo{
+    display:flex;
+}
+.logo-img{
+    width: 10%;
+}
+
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-items ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.icon-1{
+    /* border: 2px solid blue; */
+}
+.icon-2{
+    /* padding-left: -10px; */
+    display: flex;
+    gap: 10px;
+}
+.nav-box{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 10px;
+
+}
+.custom-nav-icon{
+    color: white;
+    /* width: 50px; */
+    display: flex;
+}
+.nav-login{
+    width: fit-content;
+    background-color: #333B47;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-signup{
+    width: fit-content;
+    background-color: #F0B90B;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* Hero 1 */
+.hero-1{
+    margin-top: 50px;
+}
+.hero-1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+}
+.hero-1-text-1{
+    /* border: 1px solid blue; */
+}
+.hero-1-yellow-num{
+    color: #F0B90B;
+    font-weight: 800;
+    font-size: 60px;
+}
+.hero-1-text-1{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+}
+.hero-1-text-2{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+.hero-1-text-bracket-main{
+    /* border: 1px solid blue; */
+}
+.hero-1-text-bracket{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+.hero-1-text-no1{
+    color: #F0B90B;
+    font-weight: 700;
+    font-size: 30px ;
+}
+.hero-1-text-costumer{
+    color: #F0B90B;
+    font-weight: 600;
+    font-size: 20px ;
+}
+.hero-1-form{
+    /* border: 1px solid blue; */
+}
+.custom-input{
+    background-color: transparent;
+    border: 1px solid #333B47;
+    width: 300px;
+    color: white;
+    padding: 10px 10px;
+}
+.custom-input:hover{
+    border: 1px solid #F0B90B;
+}
+.hero-1-custom-btn{
+    width: fit-content;
+    width: 230px;
+    background-color: #F0B90B;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+.hero-1-first-icon{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid blue; */
+}
+hr{
+    border: none;         
+  border-left: 1px solid #333; 
+  height: 50px;         
+  width: 1px;           
+  margin: 0 20px;       
+}
+.hero-1-google{
+    width: 50px;
+    padding: 10px 10px;
+    background-color: #181A20;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid #333B47;
+    /* border: 1px solid blue; */
+}
+.hero-1-apple{
+    width: 50px;
+    padding: 10px 10px;
+    background-color: #181A20;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid #333B47;
+    /* border: 1px solid blue; */
+}
+.hero-1-scanner{
+    width: 50px;
+    padding: 10px 10px;
+    background-color: #181A20;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid #333B47;
+    /* border: 1px solid blue; */
+}
+.hero-1-line{
+    width: 30px;
+    height: fit-content;
+    /* border: 1px solid blue; */
+}
+.hero-1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-1-2-box-1{
+    width: 600px;
+    height: auto;
+    background-color: #333B47;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.hero-1-2-box-2{
+    width: 600px;
+    height: 200px;
+    background-color: #333B47;
+    border-radius: 10px;
+}
+.hero-1-box-1-header ul{
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 15px; */
+}
+.hero-1-disabled{
+    color: #929AA5;
+}
+.hero-1-disabled:hover{
+    color: white;
+}
+.hero-1-disabled-list{
+    color: #929AA5;
+    font-size: smaller;
+}
+.hero-1-2-box-1-list{
+    color: white;
+    font-weight: 500;
+
+}
+.hero-1-2-box-1-list-rs{
+    color: white;
+}
+.hero-1-2-box-1-list-percent-green{
+    color: green;
+}
+.hero-1-2-box-1-list-percent-red{
+    color: red;
+}
+.hero-1-box-2-header{
+    padding: 0 30px;
+}
